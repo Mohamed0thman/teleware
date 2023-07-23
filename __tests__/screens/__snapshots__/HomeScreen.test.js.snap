@@ -1,0 +1,1668 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home screen renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "paddingBottom": 0,
+        "paddingTop": 0,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      },
+      {
+        "paddingHorizontal": 40,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row-reverse",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <SvgMock
+        height={39.5}
+        width={48}
+      />
+    </View>
+    <Text
+      style={
+        [
+          {
+            "color": "#000",
+          },
+          {
+            "textAlign": "left",
+          },
+          {
+            "color": "#000",
+            "fontFamily": "Roboto-Bold",
+            "fontSize": 24,
+            "marginVertical": 33,
+          },
+        ]
+      }
+      testID="screen-title"
+    >
+      app:titles.HomeTitle
+    </Text>
+  </View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      [
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+        ,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+      />
+    }
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEnabled={true}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <RCTRefreshControl />
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "height": 33,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "height": 33,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "height": 33,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "height": 33,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "height": 33,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              {
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 24,
+                  "elevation": 3,
+                  "height": 230,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 1,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.22,
+                  "shadowRadius": 2.22,
+                  "width": 300,
+                },
+                {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            testID="skeletonPlaceHolder"
+          >
+            <RNCMaskedView
+              style={
+                {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": "100%",
+                }
+              }
+            >
+              <View
+                pointerEvents="none"
+                style={
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "backgroundColor": "transparent",
+                      "flex": 1,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "backgroundColor": "#000",
+                        "flex": 1,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                style={
+                  {
+                    "backgroundColor": "#C8EBE5",
+                    "borderColor": "#E3F6F3",
+                    "width": "100%",
+                  }
+                }
+              >
+                <BVLinearGradient
+                  collapsable={false}
+                  colors={
+                    [
+                      4291357669,
+                      4293129971,
+                      4293129971,
+                      4291357669,
+                    ]
+                  }
+                  endPoint={
+                    {
+                      "x": 1,
+                      "y": 0,
+                    }
+                  }
+                  locations={null}
+                  startPoint={
+                    {
+                      "x": 0,
+                      "y": 0,
+                    }
+                  }
+                  style={
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "transform": [
+                        {
+                          "translateX": -750,
+                        },
+                      ],
+                    }
+                  }
+                />
+              </View>
+            </RNCMaskedView>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

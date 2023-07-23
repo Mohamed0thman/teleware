@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`languge screen renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "paddingBottom": 0,
+        "paddingTop": 0,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      },
+      {},
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000",
+        },
+        {
+          "textAlign": "left",
+        },
+        {
+          "color": "#000",
+          "fontFamily": "Roboto-Bold",
+          "fontSize": 22,
+          "marginTop": 65.5,
+          "textAlign": "center",
+        },
+      ]
+    }
+    testID="screen-title"
+  >
+    app:titles.langScreen
+  </Text>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "gap": 50,
+          "justifyContent": "center",
+        },
+        {
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#000",
+          "borderWidth": 1,
+          "height": 197,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 160,
+        }
+      }
+      testID="en-btn"
+    >
+      <SvgMock
+        height={82}
+        width={100}
+      />
+      <Text
+        style={
+          {
+            "color": "#000",
+            "fontFamily": "Roboto-Bold",
+            "fontSize": 20,
+          }
+        }
+      >
+        English
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#000",
+          "borderWidth": 1,
+          "height": 197,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 160,
+        }
+      }
+      testID="ar-btn"
+    >
+      <SvgMock
+        height={82}
+        width={100}
+      />
+      <Text
+        style={
+          {
+            "color": "#000",
+            "fontFamily": "Roboto-Bold",
+            "fontSize": 20,
+          }
+        }
+      >
+        العربيه
+      </Text>
+    </View>
+  </View>
+</View>
+`;

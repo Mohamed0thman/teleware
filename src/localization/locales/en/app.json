@@ -1,0 +1,9 @@
+{
+  "titles": {
+    "langScreen": "Select Languge",
+    "HomeTitle": "Select Currency",
+    "connectionError": "Connection Error",
+    "oops": "Oops! Looks like your device is not connected to the Internet."
+  },
+  "buttons": {"next": "Next", "retry": "Try Again"}
+}

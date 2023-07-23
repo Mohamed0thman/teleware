@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`languge screen renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "paddingBottom": 0,
+        "paddingTop": 0,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+      },
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Image
+    resizeMode="contain"
+    source={
+      {
+        "testUri": "../../../src/assets/image/disconiction.jpg",
+      }
+    }
+    style={
+      {
+        "height": "50%",
+        "width": "80%",
+      }
+    }
+  />
+  <Text
+    style={
+      [
+        {
+          "color": "#000",
+        },
+        {
+          "textAlign": "left",
+        },
+        {
+          "fontFamily": "Roboto-Bold",
+          "fontSize": 20,
+          "marginTop": 8,
+        },
+      ]
+    }
+  >
+    app:titles.connectionError
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "color": "#000",
+        },
+        {
+          "textAlign": "left",
+        },
+        {
+          "fontFamily": "Roboto-Medium",
+          "fontSize": 16,
+          "marginTop": 8,
+        },
+      ]
+    }
+  >
+    app:titles.oops
+     
+  </Text>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#007864",
+        "height": 82,
+        "justifyContent": "center",
+        "marginTop": 33,
+        "opacity": 1,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Roboto-Bold",
+          "fontSize": 20,
+        }
+      }
+    >
+      app:buttons.retry
+    </Text>
+  </View>
+</View>
+`;
