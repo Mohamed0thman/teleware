@@ -79,7 +79,7 @@ const HomeScreen = ({navigation}: Props) => {
   const renderSkeleton = () => {
     return (
       <View
-      testID='skeletonPlaceHolder'
+        testID="skeletonPlaceHolder"
         style={[
           styles.currencie,
           {justifyContent: 'center', alignItems: 'center'},
@@ -90,10 +90,6 @@ const HomeScreen = ({navigation}: Props) => {
       </View>
     );
   };
-
-  // if (isLoading) return <Spinner />;
-
-  console.log('isRtl', isRtl);
 
   return (
     <RootScreen containerStyle={styles.rootScreen}>
